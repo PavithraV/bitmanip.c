@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 void print(int);
-unsigned char toggle(int ,int );
-unsigned char toggleexcept(int ,int );
-unsigned char bitset1(int ,int);
-unsigned char bitset0(int ,int);
+unsigned char toggle(int,int );
+unsigned char toggleexcept(int,int );
+unsigned char bitset1(int,int);
+unsigned char bitset0(int,int);
 unsigned char swap(int);
 unsigned char rotateright(int);
 unsigned char rotateleft(int);
@@ -17,22 +17,22 @@ void main()
       print(num);
       printf("\t Decimal Equivalent: %d",num);
       
-      printf("\n Bit %d set to 1\t",index);
+      printf("\n Bit %d set to 1 \t",index);
       res=set1(num,index);
       print(res);
       printf("\t Decimal Equivalent: %d",res);
 
-      printf("\n Bit %d set to 0\t",index);
+      printf("\n Bit %d set to 0 \t",index);
       res=set0(num,index);
       print(res);
       printf("\t Decimal Equivalent: %d",res);
 
-      printf("\n toggled bit\t");
+      printf("\n toggled bit \t");
       res=toggle(num,index);
       print(res);
       printf("\t Decimal Equivalent: %d",res);
 
-      printf("\n except bit %d\t",index);
+      printf("\n except bit %d \t",index);
       res=togexcept(num,index);
       print(res);
       printf("\t Decimal Equivalent: %d",res);
